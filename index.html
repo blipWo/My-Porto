@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+<!-- Nav section start -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Biografi</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Others
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/contact">Contact</a></li>
+            <li><a class="dropdown-item" href="/gallery">Gallery</a></li>
+            <li><a class="dropdown-item" href="/sosmed">Sosmed</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Nav section end -->
+
+<!-- First Layout Start -->
+<div class="container-fluid bg-dark text-light nb-4" style="height: 100vh;">
+  <!-- carousel images -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="asset/large-157.jpg" class="d-block w-100" alt="Quotes of the day 1" style="height: 500px;">
+        <div class="carousel-caption">
+          <h5>Welcome to My Homepage</h5>
+          <p>Hope you enjoy it.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/1600w-DkL3dIb8Sio.jpg" class="d-block w-100" alt="Quotes of the day 2" style="height: 500px;">
+        <div class="carousel-caption">
+          <h5><i><span style="color: black;">Keep on your path bro. Don't give up!</span></i></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/different-shapes-pattern-in-the-style-of-vapor-wave-free-photo.jpg" class="d-block w-100" alt="Quotes of the day 3" style="height: 500px;">
+        <div class="carousel-caption">
+          <h5>Don't stres over what's not in your control</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  <!-- end of carousel images -->
+  <div class="row text-center align-items-center mt-4">
+    <div class="col-12">
+      <img src="asset/profile-image-of-man-avatar-for-social-networks-with-half-circle-fashion-bright-illustration-in-trendy-style-vector.png" alt="My Image" width="150" height="150"/>
+      <h2 class="mt-1">Raihan</h2>
+      <i>Hello Everyone! This is my <span style="color: cyan;">Biografi</span></i>
+    </div>
+  </div>
+  <div class="row text-dark mt-3">
+  <div class="col-sm-4 g-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Tentang Saya</h5>
+        <p class="card-text">Saya adalah seorang mahasiswa baru di Politeknik IDN Bogor, jurusan Programmer dan kini Saya sedang dalam proses mempelajari bidang software.</p>
+        <a href="/about" class="btn btn-dark d-block">Lihat lebih lengkap</a>
+      </div>
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    🤫
+      </span>
+    </div>
+  </div>
+  <div class="col-sm-4 g-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Akun Sosmed Saya</h5>
+        <p class="card-text">Seorang mahasiswa yang ingin menjadi konten kreator yang hebat</p>
+        <a href="/sosmed" class="btn btn-dark d-block"> Klik sini bro!</a>
+      </div>
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    😎
+      </span>
+    </div>
+  </div>
+  <div class="col-sm-4 g-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Kontak Saya</h5>
+        <p class="card-text">Ingin produk herbal halal HNI dan jasa pembuatan web? Hubungi saya!</p>
+        <a href="/contact" class="btn btn-dark d-block">Hubungi sekarang!</a>
+      </div>
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    👌
+      </span>
+    </div>
+  </div>
+</div>
+</div>
+<!-- First Layout End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
