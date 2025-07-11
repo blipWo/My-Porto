@@ -1,5 +1,5 @@
 # My-Porto
-This is my first portfolio website built with HTML, CSS, and Bootstrap.
+This is my first portfolio website built with HTML, CSS, JS, and Bootstrap.
 
 🔗 Live demo: https://blipwo.github.io/My-Porto
 
@@ -11,7 +11,8 @@ This is my first portfolio website built with HTML, CSS, and Bootstrap.
 
 ## 🛠 Tech Stack
 - HTML5
-- CSS3
+- CSS
+- JS
 - Bootstrap 5
 
 ## 🙋‍♂️ Feel free to give feedback or suggestions!
