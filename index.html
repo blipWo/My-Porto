@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+          background: linear-gradient(135deg, #0f2027, #2c5364);
+        }
+        .btn-dark:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+    </style>
 </head>
-<body class="bg-dark">
+<body class="text-light">
 <!-- Nav section start -->
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
   <div class="container-fluid">
@@ -28,7 +40,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="/contact">Contact</a></li>
-            <li><a class="dropdown-item" href="/gallery">Gallery</a></li>
+            <li><a class="dropdown-item" href="/skill">Skill</a></li>
             <li><a class="dropdown-item" href="/sosmed">Sosmed</a></li>
           </ul>
         </li>
@@ -77,14 +89,16 @@
   <!-- end of carousel images -->
   <div class="row text-center align-items-center mt-4">
     <div class="col-12">
-      <img src="asset/profile-image-of-man-avatar-for-social-networks-with-half-circle-fashion-bright-illustration-in-trendy-style-vector.png" alt="My Image" width="150" height="150"/>
-      <h2 class="mt-1">Raihan</h2>
+  <img src="asset/profile-image-of-man-avatar-for-social-networks-with-half-circle-fashion-bright-illustration-in-trendy-style-vector.png" class="rounded-circle" width="120" alt="Profile">
+  <div class="card-body">
+    <h2 class="mt-1">Raihan</h2>
       <i>Hello Everyone! This is my <span style="color: cyan;">Biografi</span></i>
+  </div>
     </div>
   </div>
   <div class="row text-dark mt-3">
   <div class="col-sm-4 g-4">
-    <div class="card">
+    <div class="card shadow-lg bg-light text-dark">
       <div class="card-body">
         <h5 class="card-title text-center">Tentang Saya</h5>
         <p class="card-text">Saya adalah seorang mahasiswa baru di Politeknik IDN Bogor, jurusan Programmer dan kini Saya sedang dalam proses mempelajari bidang software.</p>
@@ -96,11 +110,11 @@
     </div>
   </div>
   <div class="col-sm-4 g-4">
-    <div class="card">
+    <div class="card shadow-lg bg-light text-dark">
       <div class="card-body">
         <h5 class="card-title text-center">Akun Sosmed Saya</h5>
         <p class="card-text">Seorang mahasiswa yang ingin menjadi konten kreator yang hebat</p>
-        <a href="/sosmed" class="btn btn-dark d-block"> Klik sini bro!</a>
+        <a href="/sosmed" class="btn btn-dark d-block"> Klik disini bro!</a>
       </div>
       <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
     😎
@@ -108,7 +122,7 @@
     </div>
   </div>
   <div class="col-sm-4 g-4">
-    <div class="card">
+    <div class="card shadow-lg bg-light text-dark">
       <div class="card-body">
         <h5 class="card-title text-center">Kontak Saya</h5>
         <p class="card-text">Ingin produk herbal halal HNI dan jasa pembuatan web? Hubungi saya!</p>
@@ -122,7 +136,10 @@
 </div>
 </div>
 <!-- First Layout End -->
-
+<footer class="bg-dark text-light text-center py-3 mt-5">
+  &copy; 2025 Raihan | Follow me: 
+  <a href="https://instagram.com/han.wo_" class="text-light ms-2"><i class="bi bi-instagram"></i></a>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
